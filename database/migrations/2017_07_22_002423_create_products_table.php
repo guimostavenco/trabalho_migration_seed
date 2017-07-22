@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('quantidade');
             $table->string('nome');
             $table->string('categoria');
+            $table->string('user_id');
         });
     }
 
